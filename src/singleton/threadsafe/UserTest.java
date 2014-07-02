@@ -4,6 +4,7 @@ public class UserTest {
 
 	public static void main(String[] args) {
 
+		// All attempts return the same object!!!
 		Singleton singleton1 = new Singleton();
 		System.out.println(singleton1);
 		Singleton singleton2 = new Singleton();
